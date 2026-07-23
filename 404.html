@@ -1,0 +1,209 @@
+
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>۴۰۴ | صفحه پیدا نشد</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Vazirmatn", sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background: #09090b;
+            color: #fff;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, #ff2d5520, transparent 70%);
+            filter: blur(100px);
+            animation: pulse 5s infinite;
+        }
+
+        @keyframes pulse {
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: .6;
+            }
+
+            50% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+
+        .error {
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            user-select: none;
+            font-size: 130px;
+            font-weight: 900;
+            letter-spacing: 8px;
+            color: #e01036;
+            text-shadow: 0 0 2px #ffffff, 0 0 2px #ff2d55;
+        }
+
+        .container {
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 80px;
+            max-width: 1200px;
+            padding: 40px;
+        }
+
+        .animation {
+            width: 420px;
+        }
+
+        .content {
+            max-width: 500px;
+        }
+
+        .content h1 {
+            margin-bottom: 18px;
+            font-size: 46px;
+        }
+
+        .content h1 span {
+            color: #e01036;
+        }
+
+        .content p {
+            margin-bottom: 40px;
+            color: #b6b6b6;
+            line-height: 2;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 34px;
+            border-radius: 14px;
+            background: #e01036;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: .3s;
+            box-shadow: 0 0 25px #ff2d5560;
+        }
+
+        .btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 0 10px #ff2d55;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #666;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        @media (max-width: 900px) {
+            body {
+                overflow: auto;
+            }
+
+            .container {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .animation {
+                width: 300px;
+            }
+
+            .error {
+                top: 20px;
+                left: 20px;
+                font-size: 90px;
+            }
+
+            .content h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="error">
+        404
+    </div>
+
+    <div class="container">
+
+        <div class="animation">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kcsr6fcp.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay>
+            </lottie-player>
+        </div>
+
+        <div class="content">
+            <h1>
+                اوه...
+                <span>صفحه پیدا نشد</span>
+            </h1>
+
+            <p>
+                صفحه‌ای که به دنبال آن هستید وجود ندارد،
+                ممکن است حذف شده باشد یا آدرس وارد شده اشتباه باشد.
+                برای ادامه، به صفحه اصلی بازگردید.
+            </p>
+
+            <a href="/" class="btn">
+                <i class="fa-solid fa-house"></i>
+                بازگشت به صفحه اصلی
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        مادلن  |  Madelline
+    </div>
+
+</body>
+
+</html>
+
