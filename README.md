@@ -89,7 +89,7 @@ ErrorDocument 404 /404.html
 
 ```html
 <div class="footer">
-    MTA Company | Web Development
+    مادلن | Madelline
 </div>
 ```
 
